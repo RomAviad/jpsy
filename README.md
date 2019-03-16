@@ -21,10 +21,13 @@ Obviously, it's a mash-up between JS and Py(thon).
 ## Usage Example
 ```python
 from jpsy import pythonify, jsify
+
 sample = {"abc_pep8": 123, "dictKey": {"CamelCase": "whatever", "pascalCaseLongKEY": "woot"}}
+
 pythonified = pythonify(sample)
 print(pythonified)
 # >>> {'abc_pep8': 123, 'dict_key': {'camel_case': 'whatever', 'pascal_case_long_key': 'woot'}}
+
 jsified = jsify(sample)
 print(jsified)
 # >>> {'abcPep8': 123, 'dictKey': {'CamelCase': 'whatever', 'pascalCaseLongKEY': 'woot'}}
