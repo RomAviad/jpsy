@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 setup(
     name="jpsy",
     author="Aviad Rom",
-    version="0.1.0",
+    version="0.1.1",
     packages=find_packages(),
     description="Enforcing Language Naming Conventions",
     long_description=open("README.md").read(),
