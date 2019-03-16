@@ -8,6 +8,13 @@ conventions messing around their code's look and feel.
 It comes in handy when your python code handles JSONs created in a JavaScript component (or maybe the frontend of 
 your application), or just when you have people who don't play by the book when it comes to naming conventions. 
 
+## Installation
+`pip install jpsy`
+
+or
+
+`pip install -e git+git://github.com/RomAviad/jpsy.git`
+
 ## What's with the name?
 Obviously, it's a mash-up between JS and Py(thon).
 
